@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_exercise"
+        android:enabled="true"
+        android:icon="@drawable/exer"
+        android:title="Exercise"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_plan"
+        android:enabled="true"
+        android:icon="@drawable/script"
+        android:title="Plan"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_utility"
+        android:enabled="true"
+        android:icon="@drawable/drawing"
+        android:title="Utility"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_fav"
+        android:enabled="true"
+        android:icon="@drawable/heart"
+        android:title="Favourite"
+        app:showAsAction="ifRoom" />
+</menu>
